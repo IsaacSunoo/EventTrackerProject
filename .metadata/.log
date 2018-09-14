@@ -277,3 +277,6 @@ Caused by: org.gradle.api.UnknownProjectException: Project with path ':EventTrac
 	at build_7orgkls5t0ayk33rz7abtx74f.run(/Users/isaacsunoo/SD/Java/EventTracker/EventTrackerRest/build.gradle:27)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 102 more
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-14 15:56:15.176
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
