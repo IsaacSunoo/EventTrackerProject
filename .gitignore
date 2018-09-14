@@ -6,3 +6,4 @@ bin
 gradle*
 application.properties
 .settings
+/.metadata/
