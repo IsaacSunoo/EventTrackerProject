@@ -67,6 +67,6 @@ public class NutritionalValueController {
 	@RequestMapping(path = "nutritionalvalues/{fid}", method = RequestMethod.PATCH)
 	public NutritionalValue update(@PathVariable int fid, @RequestBody NutritionalValue nv) {
 		return nvServ.updateFood(nv, fid);
-
 	}
+
 }
