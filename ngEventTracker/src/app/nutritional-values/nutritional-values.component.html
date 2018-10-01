@@ -1,0 +1,88 @@
+<h1>Nutritional Values</h1>
+
+<div>
+  <table *ngFor="let nutrition of nutritions">
+    <thead>
+      <th>nutrition.nameAndAmount</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>calories</td>
+        <td>nutrition.calories</td>
+      </tr>
+      <tr>
+        <td>Calories From Fat</td>
+        <td>nutrition.caloriesFromFat</td>
+      </tr>
+      <tr>
+        <td>Total Fat</td>
+        <td>nutrition.totalFat</td>
+      </tr>
+      <tr>
+        <td>Saturated Fat</td>
+        <td>nutrition.saturatedFat</td>
+      </tr>
+      <tr>
+        <td>Trans Fat</td>
+        <td>nutrition.transFat</td>
+      </tr>
+      <tr>
+        <td>Cholesterol</td>
+        <td>nutrition.cholesterol</td>
+      </tr>
+      <tr>
+        <td>Sodium</td>
+        <td>nutrition.sodium</td>
+      </tr>
+      <tr>
+        <td>Potassium</td>
+        <td>nutrition.potassium</td>
+      </tr>
+      <tr>
+        <td>Total Carbohydrates</td>
+        <td>nutrition.totalCarbohydrates</td>
+      </tr>
+      <tr>
+        <td>Dietary Fiber</td>
+        <td>nutrition.dietaryFiber</td>
+      </tr>
+      <tr>
+        <td>Sugars</td>
+        <td>nutrition.sugars</td>
+      </tr>
+      <tr>
+        <td>Protein</td>
+        <td>nutrition.protein</td>
+      </tr>
+    </tbody>
+
+  </table>
+</div>
+
+<div>
+  <form #foodForm='ngForm'>
+    <input type="text" name="nameAndAmount" placeholder="Name and Amount" ngModel>
+    <br>
+    <input type="number" name="calories" placeholder="Calories" ngModel>
+    <br>
+    <input type="number" name="caloriesFromFat" placeholder="Calories From Fat" ngModel>
+    <br>
+    <input type="number" name="totalFat" placeholder="Total Fat" ngModel>
+    <br>
+    <input type="number" name="cholesterol" placeholder="Cholesterol" ngModel>
+    <br>
+    <input type="number" name="sodium" placeholder="Sodium" ngModel>
+    <br>
+    <input type="number" name="potassium" placeholder="Potassium" ngModel>
+    <br>
+    <input type="number" name="totalCarbohydrate" placeholder="Total Carbohydrates" ngModel>
+    <br>
+    <input type="number" name="dietaryFiber" placeholder="Dietary Fiber" ngModel>
+    <br>
+    <input type="number" name="sugars" placeholder="Sugars" ngModel>
+    <br>
+    <input type="number" name="protein" placeholder="Protein" ngModel>
+    <br>
+
+  </form>
+</div>

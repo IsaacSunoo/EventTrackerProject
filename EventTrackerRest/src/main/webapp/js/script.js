@@ -5,42 +5,39 @@ window.addEventListener('load', function(e) {
 
 function init() {
 	document.nutritionForm.lookup.addEventListener('click', function(event) {
+
 		event.preventDefault();
-		var foodId = document.nutritionForm.foodId.value;
-		if (!isNaN(foodId) && foodId > 0) {
-			getFood(foodId);
-		}
-	})
-}
 
-function getFood(foodId) {
-	var xhr = new XMLHttpRequest();
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', 'api/nutritionalvalues/' + foodId);
 
-	xhr.open('GET', 'api/nutritionalvalues/' + foodId);
-	xhr.onreadystatechange = function() {
-		if (xhr.readyState === 4)
-			if (xhr.status === 200) {
-				var foodData = JSON.parse(xhr.responseText);
-				console.log(xhr.responseText);
-				displayFood(foodData);
-			} else {
-				console.err("Nutritional facts for food not found")
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState === 4)
+				if (xhr.status === 200) {
+					let foodData = JSON.parse(xhr.responseText);
+					console.log(xhr.responseText);
+					displayFood(foodData);
+				} else {
+					console.err("ERROR retrieving data")
+				}
+			if (xhr.readyState === 4 && xhr.status != 200) {
+				console.error(xhr.status + ': ' + xhr.responseText);
 			}
-	};
-	xhr.send();
+		}
+		xhr.send();
+	});
 }
 
 function displayFood(food) {
 	var dataDiv = document.getElementById('foodData');
 	dataDiv.textContent = '';
-	
-	
+
 	var table = document.createElement('table');
 	var foodName = document.createElement('h2');
 	foodName.textContent = food.nameAndAmount;
 	var tableRow = document.createElement('tr');
 	var tableRow1 = document.createElement('tr');
-	var tableRow2= document.createElement('tr');
+	var tableRow2 = document.createElement('tr');
 	var tableRow3 = document.createElement('tr');
 	var tableRow4 = document.createElement('tr');
 	var tableRow5 = document.createElement('tr');
@@ -98,7 +95,7 @@ function displayFood(food) {
 	protein.textContent = "Protein";
 	var proteinValue = document.createElement('td');
 	proteinValue.textContent = food.protein;
-	
+
 	table.append(foodName);
 	table.append(tableRow);
 	tableRow.append(calories);
