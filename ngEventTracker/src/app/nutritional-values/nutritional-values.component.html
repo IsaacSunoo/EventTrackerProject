@@ -63,66 +63,41 @@
 
 
 <div class="container-fluid text-center">
-  <table *ngFor="let nutrition of nutritions">
-    <thead>
-      <th>{{nutrition.nameAndAmount}}</th>
+  <table class="table table-hover">
+    <thead class="thead-dark">
+      <tr>
+        <th>Food and Amount</th>
+        <th>Calories</th>
+        <th>Calories From Fat</th>
+        <th>Total Fat</th>
+        <th>Saturated Fat</th>
+        <th>Trans Fat</th>
+        <th>Cholesterol</th>
+        <th> Sodium</th>
+        <th>Potassium</th>
+        <th>Total Carbohydrates</th>
+        <th>Dietary Fiber</th>
+        <th>Sugars</th>
+        <th>Protein</th>
+      </tr>
     </thead>
-    <tbody>
+    <tbody *ngFor="let nutrition of nutritions">
       <tr>
-        <td>calories</td>
+        <td>{{nutrition.nameAndAmount}}</td>
         <td>{{nutrition.calories}}</td>
-      </tr>
-      <tr>
-        <td>Calories From Fat</td>
         <td>{{nutrition.caloriesFromFat}}</td>
-      </tr>
-      <tr>
-        <td>Total Fat</td>
         <td>{{nutrition.totalFat}}</td>
-      </tr>
-      <tr>
-        <td>Saturated Fat</td>
         <td>{{nutrition.saturatedFat}}</td>
-      </tr>
-      <tr>
-        <td>Trans Fat</td>
         <td>{{nutrition.transFat}}</td>
-      </tr>
-      <tr>
-        <td>Cholesterol</td>
         <td>{{nutrition.cholesterol}}</td>
-      </tr>
-      <tr>
-        <td>Sodium</td>
         <td>{{nutrition.sodium}}</td>
-      </tr>
-      <tr>
-        <td>Potassium</td>
         <td>{{nutrition.potassium}}</td>
-      </tr>
-      <tr>
-        <td>Total Carbohydrates</td>
         <td>{{nutrition.totalCarbohydrate}}</td>
-      </tr>
-      <tr>
-        <td>Dietary Fiber</td>
         <td>{{nutrition.dietaryFiber}}</td>
-      </tr>
-      <tr>
-        <td>Sugars</td>
         <td>{{nutrition.sugars}}</td>
-      </tr>
-      <tr>
-        <td>Protein</td>
         <td>{{nutrition.protein}}</td>
-      </tr>
-      <tr>
         <td><button class="btn-danger" name="delete" type="submit" (click)="deleteNutrition(nutrition.id)">X</button></td>
         <td><button name="updateNutrition" type="submit" (click)="setEditNutrition(nutrition)">Edit Values</button></td>
       </tr>
-
     </tbody>
-
-  </table>
-</div>
 
