@@ -30,6 +30,8 @@ repositories {
 	mavenCentral()
 }
 
+project.webAppDirName = 'src/main/resources/static'
+
 
 dependencies {
 	compile project(':EventTrackerJPA')

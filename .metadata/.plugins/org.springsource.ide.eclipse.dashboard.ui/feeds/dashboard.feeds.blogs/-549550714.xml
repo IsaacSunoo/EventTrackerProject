@@ -5,7 +5,58 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-10-17T23:04:05Z</updated>
+  <updated>2018-10-18T13:57:31Z</updated>
+  <entry>
+    <title>Spring IO Platform Cairo-SR5</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/10/18/spring-io-platform-cairo-sr5" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2018-10-18:3440</id>
+    <updated>2018-10-18T13:57:31Z</updated>
+    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="https://spring.io/projects/platform"&gt;Spring IO Platform&lt;/a&gt; Cairo-SR5 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. &lt;/p&gt;
+&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reactor Bismuth-SR12&lt;/li&gt;
+  &lt;li&gt;Spring AMQP 2.0.8&lt;/li&gt;
+  &lt;li&gt;Spring Boot 2.0.6&lt;/li&gt;
+  &lt;li&gt;Spring Data Kay SR11&lt;/li&gt;
+  &lt;li&gt;Spring Framework 5.0.10&lt;/li&gt;
+  &lt;li&gt;Spring Integration 5.0.9&lt;/li&gt;
+  &lt;li&gt;Spring Security 5.0.9&lt;/li&gt;
+  &lt;li&gt;Spring Security OAuth 2.2.3&lt;/li&gt;
+  &lt;li&gt;Spring Session Apple SR6&lt;/li&gt;
+  &lt;li&gt;Spring Web Flow 2.5.1&lt;/li&gt;
+  &lt;li&gt;Spring Web Services 3.0.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Cairo-SR5/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring IO Platform Brussels-SR14</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/10/18/spring-io-platform-brussels-sr14" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2018-10-18:3439</id>
+    <updated>2018-10-18T13:36:00Z</updated>
+    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="https://spring.io/projects/platform"&gt;Spring IO Platform&lt;/a&gt; Brussels-SR14 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. &lt;/p&gt;
+&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring AMQP 1.7.11&lt;/li&gt;
+  &lt;li&gt;Spring Boot 1.5.17&lt;/li&gt;
+  &lt;li&gt;Spring Data Ingalls SR16&lt;/li&gt;
+  &lt;li&gt;Spring Framework 4.3.20&lt;/li&gt;
+  &lt;li&gt;Spring Security 4.2.9&lt;/li&gt;
+  &lt;li&gt;Spring Security OAuth 2.0.16&lt;/li&gt;
+  &lt;li&gt;Spring Web Flow 2.4.8&lt;/li&gt;
+  &lt;li&gt;Spring Web Services 2.4.3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Brussels-SR14/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Edgware.SR5 Has Been Released</title>
     <link rel="alternate" href="https://spring.io/blog/2018/10/17/spring-cloud-edgware-sr5-has-been-released" />
@@ -346,10 +397,10 @@ dependencies {&#xD;
       <name>Mark Heckler</name>
     </author>
     <id>tag:spring.io,2018-10-16:3430</id>
-    <updated>2018-10-16T07:03:13Z</updated>
+    <updated>2018-10-16T07:03:00Z</updated>
     <content type="html">&lt;div class="imageblock"&gt;
 &lt;div class="content"&gt;
-&lt;img src="https://www.thehecklers.com/content/images/2018/10/SNES.png" alt="SNES logo"&gt;
+&lt;img src="https://thehecklers.com/content/images/2018/10/SpringNoticiasRecortado.png" alt="SNES logo"&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
@@ -632,7 +683,7 @@ dependencies {&#xD;
     <updated>2018-10-03T08:24:00Z</updated>
     <content type="html">&lt;div class="imageblock"&gt;
 &lt;div class="content"&gt;
-&lt;img src="https://www.thehecklers.com/content/images/2018/10/SNES.png" alt="SNES logo"&gt;
+&lt;img src="https://thehecklers.com/content/images/2018/10/SpringNoticiasRecortado.png" alt="SNES logo"&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
@@ -856,243 +907,5 @@ fun main() = app.run()
 &lt;p&gt;Upcoming &lt;a href="https://github.com/spring-projects/spring-fu/milestone/4"&gt;Spring Fu 0.0.3&lt;/a&gt; will provide feature parity between Kofu and Jafu configurations.&lt;/p&gt;
 &lt;p&gt;We already have &lt;a href="https://github.com/spring-projects/spring-fu/graphs/contributors"&gt;10+ community contributors&lt;/a&gt; who submitted pull requests to Spring Fu, so if you have some ideas you could maybe be the next ;-)&lt;/p&gt;
 &lt;p&gt;Looking forward meeting you in my upcoming Spring Fu talks at &lt;a href="https://jfuture.by/"&gt;JFuture&lt;/a&gt; (Minsk), &lt;a href="http://springfest2018.springframework.jp/"&gt;Spring Fest&lt;/a&gt; (Tokyo) and &lt;a href="https://dvbe18.confinabox.com/talk/TZU-3777/What's_cooking_in_Spring_Fu%3F"&gt;Devoxx&lt;/a&gt; (Antwerpen).&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Vault 2.1 GA released</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/10/02/spring-vault-2-1-ga-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Mark Paluch</name>
-    </author>
-    <id>tag:spring.io,2018-10-02:3419</id>
-    <updated>2018-10-02T09:10:28Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the community, I&amp;rsquo;d like to announce the general availability of Spring Vault 2.1. Spring Vault 2.1 requires JDK 8 or higher and specifically supports JDK 11 as the next long-term support release. The most notable changes of Spring Vault 2.1 are:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Extending infrastructure-based authentication to support Google Cloud IAM and Azure Managed Service Identity.&lt;/li&gt;
-  &lt;li&gt;Integrating Vault’s versioned Key-Value backend.&lt;/li&gt;
-  &lt;li&gt;Wrapping API support.&lt;/li&gt;
-  &lt;li&gt;Java 11 compatibility.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This release is compatible with Vault versions from &lt;code&gt;0.5.2&lt;/code&gt; up to &lt;code&gt;0.11.1&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Make sure to also check out our &lt;a href="https://spring.io/blog/2018/09/24/hands-on-with-spring-vault-2-1"&gt;blog post that explains the new features in detail&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;For a complete list of changes see the &lt;a href="http://docs.spring.io/spring-vault/docs/2.1.0.RELEASE/changelog.txt"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-vault/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-vault/docs/2.1.0.RELEASE/reference/html/"&gt;Documentation&lt;/a&gt; | &lt;a href="https://github.com/mp911de/spring-cloud-vault-config-samples/"&gt;Examples&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-vault"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>What's new in Spring Data Lovelace?</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/09/27/what-s-new-in-spring-data-lovelace" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Oliver Gierke</name>
-    </author>
-    <id>tag:spring.io,2018-09-18:3398</id>
-    <updated>2018-09-27T15:00:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;With Spring Data Lovelace just released in its generally available version last week, it is time to have a brief walk through the new features we have added.
-The release train is pretty packed with features.
-In this blog post, I cover the more general ones.
-Advanced, store-specific news is covered in the following blog posts:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://spring.io/blog/2018/09/17/introducing-spring-data-jdbc"&gt;Jens Schauder introducing Spring Data JDBC&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://spring.io/blog/2018/09/24/spring-data-jdbc-references-and-aggregates"&gt;Jens again on how to model aggregates with Spring Data JDBC&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://spring.io/blog/2018/09/27/what-s-new-in-spring-data-lovelace-for-mongodb"&gt;Christoph Strobl on MongoDB&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://spring.io/blog/2018/09/26/what-s-new-in-spring-data-lovelace-for-redis-and-apache-cassandra"&gt;Mark Paluch on Spring Data for Apache Cassandra &amp;amp; Redis&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Read up on those? Alright, then let&amp;#8217;s get started on the more general items.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="improved-object-mapping-for-immutable-types"&gt;&lt;a class="anchor" href="#improved-object-mapping-for-immutable-types"&gt;&lt;/a&gt;Improved Object Mapping for Immutable Types&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;With Spring Data Lovelace, we took the chance to revamp our object mapping facilities that are used by most of the NoSQL modules.
-We have always supported immutable entities, except a tiny aspect: Values that needed to change during database interactions, such as an auto-generated identifier or an optimistic locking version property, have always been changed under the covers.
-This has changed with the latest release.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;To support those properties, we now need you to either provide a wither method (following the &lt;code&gt;with…(…)&lt;/code&gt; naming convention) or&amp;#8201;&amp;#8212;&amp;#8201;in the Kotlin world&amp;#8201;&amp;#8212;&amp;#8201;expose a dedicated &lt;code&gt;copy(…)&lt;/code&gt; method, taking all properties as arguments. The following example uses a &lt;code&gt;withId&lt;/code&gt; method:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;class Person {
-
-  private final Long id;
-  private final String firstname, lastname;
-
-  static Person of(String firstname, String lastname) {
-    return new Person(null, firstname, lastname);
-  }
-
-  private Person(Long id, String firstname, String lastname) {
-    // Assign parameters to fields
-  }
-
-  Person withId(Long id) {
-    return new Person(id, this.firstname, this.lastame);
-  }
-
-  // …
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;With Lombok, we can do the same thing, as follows:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;@Value(staticConstructor = "of")
-class Person {
-
-  @Wither Long id;
-  String firstname, lastname;
-
-  // …
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The declared constructor is used when &lt;code&gt;Person&lt;/code&gt; instances are read from the database.
-The wither method for the identifier property comes into play when persisting new entities to the store in the first place.
-Be sure you actually use the result returned from the repository&amp;#8217;s &lt;code&gt;save(…)&lt;/code&gt; method, as this will now be a different instance than the one you handed to the method in the first place.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We used the work on that aspect to improve the performance of the actual object conversion in some store implementations by avoiding a couple of unnecessary iterations over properties when an immutable type is used.
-For more details on that, see the newly added &lt;a href="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mapping.fundamentals"&gt;section of the reference documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="support-for-vavr-s-try-monad"&gt;&lt;a class="anchor" href="#support-for-vavr-s-try-monad"&gt;&lt;/a&gt;Support for Vavr&amp;#8217;s Try Monad&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;By default, Spring Data repositories propagate errors that occur during the execution of a query method as runtime exceptions.
-Proponents of a more functional style of writing Java code usually use Vavr in their application.
-We have had support for Vavr&amp;#8217;s collection types as repository return types for quite a while already.
-Spring Data Lovelace now adds support for the &lt;code&gt;Try&lt;/code&gt; monad, so that errors occurring in the query method execution cause a &lt;code&gt;Failure&lt;/code&gt; instance to be returned instead of an exception being thrown.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;interface PersonRepository extends Repository&amp;lt;Person, Long&amp;gt; {
-
-  Try&amp;lt;Option&amp;lt;Person&amp;gt;&amp;gt; findByLastnameContaining(String lastname);
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;That method fails if more than one person can be found with a &lt;code&gt;lastname&lt;/code&gt; that matches the given criteria.
-With &lt;code&gt;Try&lt;/code&gt; being used as return type, a client component might now recover from that exceptional case as follows:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;repository.findByLastnameContaining("e")
-  .recover(it -&amp;gt; Match(it).of(
-    Case(instanceOf(IncorrectResultSizeDataAccessException.class), Optional.empty())
-));&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;While this might look a little convoluted in this contrived, tiny example, it is a pretty powerful mechanism, to keep mapping over a potentially available result on code that might throw exceptions.
-Note that, when using a transactional store in combination with this feature, you have to take care of managing transaction rollbacks yourself, as the exception is not actually being thrown any more and does not trigger transaction rollbacks for &lt;code&gt;@Transaction&lt;/code&gt; annotated methods.
-Support for that is on its way.
-Be sure to follow &lt;a href="https://jira.spring.io/browse/SPR-15806"&gt;this ticket&lt;/a&gt; in Spring Framework or even cast your vote on it.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;To see the Vavr support in action, check out the &lt;a href="https://github.com/spring-projects/spring-data-examples/blob/e9405dfa049b8265834cb78c50a932a51307a87d/jpa/vavr/src/"&gt;example&lt;/a&gt; in our canonical Spring Data Examples repository.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="deferred-jpa-repository-initialization"&gt;&lt;a class="anchor" href="#deferred-jpa-repository-initialization"&gt;&lt;/a&gt;Deferred JPA Repository Initialization&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Starting up a Spring Data JPA application requires an &lt;code&gt;EntityManagerFactory&lt;/code&gt; to be bootstrapped.
-This usually consumes quite a bit of the startup time of the application overall.
-To tackle this problem, Spring Framework already introduced the ability to bootstrap that &lt;code&gt;EntityManagerFactory&lt;/code&gt; in a background thread and, thus, let other beans get initialized in parallel.
-Unfortunately, Spring Data repositories usually have at least one transitive dependency on some kind of Spring bean.
-Their initialization, in turn, interacts with the factory already, which&amp;#8201;&amp;#8212;&amp;#8201;without further steps&amp;#8201;&amp;#8212;&amp;#8201;caused the initialization of those other components to block.
-This limited the effect of that new functionality significantly.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;As of Spring Data Lovelace, you can now define the repositories to bootstrap in a lazy mode, which automatically declares all injection points of Spring Data repositories as being lazy.
-This causes Spring Framework to create proxies and delay the actual repository initialization up until the very first interaction with them.
-In other words, repositories clients and clients of those clients can, in turn, be created without having to wait for the &lt;code&gt;EntityManagerFactory&lt;/code&gt; to finish its bootstrap.
-That means that a significantly higher amount of Spring bean initialization can be parallelized to the JPA bootstrap.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The delay of the initialization also causes any kind of verification to be delayed until (for example) the very first request that hits the code path that actually uses a repository.
-If you want to still make sure that the repositories are fully initialized before the application starts taking requests, use the &lt;strong&gt;deferred&lt;/strong&gt; bootstrap mode.
-This mode works in the same way as the lazy one, except that, when the container is done bootstrapping, it explicitly triggers the initialization of all repositories in the &lt;code&gt;ApplicationContext&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The easiest way to switch between those modes is by setting the Spring Boot properties &lt;code&gt;spring.jpa.repositories.bootstrap-mode&lt;/code&gt; to either &lt;code&gt;lazy&lt;/code&gt; or &lt;code&gt;deferred&lt;/code&gt;.
-This also ensures that the lazy initialization of the &lt;code&gt;EntityManagerFactory&lt;/code&gt; is configured properly.
-Also, be sure to check out the new section added to the &lt;a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.bootstrap-mode"&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="an-example"&gt;&lt;a class="anchor" href="#an-example"&gt;&lt;/a&gt;An Example&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We have prepared &lt;a href="https://github.com/spring-projects/spring-data-examples/tree/master/jpa/deferred"&gt;an example&lt;/a&gt; to show the effect of that optimization in a quite extreme example consisting of 2,000 entities, 2,000 repositories and 2,000 beans that depend on the repositories.
-Using the deferred mode cuts off about a third (~12 seconds) of the startup time.
-The lazy one even takes away another third (~22 seconds better than the default).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="imageblock"&gt;
-&lt;div class="content"&gt;
-&lt;img src="https://github.com/olivergierke/blog-images/raw/53341f1a3c047e9ee426f475f8e184e2e82ccf3e/deferred-jpa.png" alt="deferred jpa"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="controlling-http-method-exposure-in-spring-data-rest"&gt;&lt;a class="anchor" href="#controlling-http-method-exposure-in-spring-data-rest"&gt;&lt;/a&gt;Controlling HTTP method exposure in Spring Data REST&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We finish with a look at a feature in Spring Data REST that had been requested for a while.
-In Spring Data REST, the decision about which HTTP methods are supported for which resource type exposed is, by default driven by the declared CRUD methods.
-However, there are certain cases in which the presence of a single repository method causes multiple resource-HTTP-method combinations to be enabled.
-For example, the &lt;code&gt;save(…)&lt;/code&gt; method exposed on a repository causes &lt;code&gt;POST&lt;/code&gt; to be supported on the collection resources as well as &lt;code&gt;PUT&lt;/code&gt; for both update &lt;strong&gt;and&lt;/strong&gt; creation of the item resource.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Data Lovelace has a new &lt;code&gt;ExposureConfiguration&lt;/code&gt; (obtainable from a &lt;code&gt;RepositoryRestConfiguration&lt;/code&gt;), which allows fine grained control over which methods are supposed to be exposed:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;ExposureConfiguration config = restConfiguration.getExposureConfiguration();
-
-config.withItemExposure((metadata, httpMethods)
-  -&amp;gt; httpMethods.disable(HttpMethod.PATCH));
-config.forDomainType(User.class).disablePutForCreation();&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;As you can see, the configuration options come in two flavors:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;A global one (shown first) that allows control over collection, item, and association resource exposure by using a lambda over a &lt;code&gt;ResourceMapping&lt;/code&gt; and &lt;code&gt;ConfigurableHttpMethods&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A type-specific one as shown below.
-Some setup details, such as disabling the (enabled by default) ability to create entities by using &lt;code&gt;PUT&lt;/code&gt; requests are supported with explicit configuration methods.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;You can find out more about that in the corresponding section of the &lt;a href="https://docs.spring.io/spring-data/rest/docs/current/reference/html/#customizing-sdr.http-methods"&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
