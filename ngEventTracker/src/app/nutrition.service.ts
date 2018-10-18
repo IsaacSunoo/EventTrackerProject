@@ -1,8 +1,8 @@
-import { environment } from './../environments/environment.prod';
+import { environment } from './../environments/environment';
 import { catchError } from 'rxjs/operators';
 import { NutritionValue } from './models/nutrition-value';
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { throwError, Observable } from 'rxjs';
 
 @Injectable({

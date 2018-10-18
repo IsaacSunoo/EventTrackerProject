@@ -1,65 +1,7 @@
-<h1>Nutritional Values</h1>
+<h1 class="text-center">Nutritional Values</h1>
 
-<div>
-  <table *ngFor="let nutrition of nutritions">
-    <thead>
-      <th>nutrition.nameAndAmount</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>calories</td>
-        <td>nutrition.calories</td>
-      </tr>
-      <tr>
-        <td>Calories From Fat</td>
-        <td>nutrition.caloriesFromFat</td>
-      </tr>
-      <tr>
-        <td>Total Fat</td>
-        <td>nutrition.totalFat</td>
-      </tr>
-      <tr>
-        <td>Saturated Fat</td>
-        <td>nutrition.saturatedFat</td>
-      </tr>
-      <tr>
-        <td>Trans Fat</td>
-        <td>nutrition.transFat</td>
-      </tr>
-      <tr>
-        <td>Cholesterol</td>
-        <td>nutrition.cholesterol</td>
-      </tr>
-      <tr>
-        <td>Sodium</td>
-        <td>nutrition.sodium</td>
-      </tr>
-      <tr>
-        <td>Potassium</td>
-        <td>nutrition.potassium</td>
-      </tr>
-      <tr>
-        <td>Total Carbohydrates</td>
-        <td>nutrition.totalCarbohydrates</td>
-      </tr>
-      <tr>
-        <td>Dietary Fiber</td>
-        <td>nutrition.dietaryFiber</td>
-      </tr>
-      <tr>
-        <td>Sugars</td>
-        <td>nutrition.sugars</td>
-      </tr>
-      <tr>
-        <td>Protein</td>
-        <td>nutrition.protein</td>
-      </tr>
-    </tbody>
-
-  </table>
-</div>
-
-<div>
+<h3 class="text-center">Add a Food</h3>
+<div class="container text-center">
   <form #foodForm='ngForm'>
     <input type="text" name="nameAndAmount" placeholder="Name and Amount" ngModel>
     <br>
@@ -83,6 +25,104 @@
     <br>
     <input type="number" name="protein" placeholder="Protein" ngModel>
     <br>
+    <button type="submit" (click)="addNutrition(foodForm)">Add Food</button>
 
   </form>
 </div>
+<br>
+
+
+<div *ngIf=editNutrition>
+  <form>
+    <input type="text" name="nameAndAmount" placeholder="Name and Amount" [(ngModel)]="editNutrition.nameAndAmount">
+    <br>
+    <input type="number" name="calories" placeholder="Calories" [(ngModel)]="editNutrition.calories">
+    <br>
+    <input type="number" name="caloriesFromFat" placeholder="Calories From Fat" [(ngModel)]="editNutrition.caloriesFromFat">
+    <br>
+    <input type="number" name="totalFat" placeholder="Total Fat" [(ngModel)]="editNutrition.totalFat">
+    <br>
+    <input type="number" name="cholesterol" placeholder="Cholesterol" [(ngModel)]="editNutrition.cholesterol">
+    <br>
+    <input type="number" name="sodium" placeholder="Sodium" [(ngModel)]="editNutrition.sodium">
+    <br>
+    <input type="number" name="potassium" placeholder="Potassium" [(ngModel)]="editNutrition.potassium">
+    <br>
+    <input type="number" name="totalCarbohydrate" placeholder="Total Carbohydrates" [(ngModel)]="editNutrition.totalCarbohydrate">
+    <br>
+    <input type="number" name="dietaryFiber" placeholder="Dietary Fiber" [(ngModel)]="editNutrition.dietaryFiber">
+    <br>
+    <input type="number" name="sugars" placeholder="Sugars" [(ngModel)]="editNutrition.sugars">
+    <br>
+    <input type="number" name="protein" placeholder="Protein" [(ngModel)]="editNutrition.protein">
+    <br>
+    <button class="btn-outline-primary" (click)="updateNutrition(editNutrition)">Update</button>
+    <button class="btn-outline-primary" (click)="editNutrition = null">Cancel</button>
+  </form>
+</div>
+
+
+<div class="container-fluid text-center">
+  <table *ngFor="let nutrition of nutritions">
+    <thead>
+      <th>{{nutrition.nameAndAmount}}</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>calories</td>
+        <td>{{nutrition.calories}}</td>
+      </tr>
+      <tr>
+        <td>Calories From Fat</td>
+        <td>{{nutrition.caloriesFromFat}}</td>
+      </tr>
+      <tr>
+        <td>Total Fat</td>
+        <td>{{nutrition.totalFat}}</td>
+      </tr>
+      <tr>
+        <td>Saturated Fat</td>
+        <td>{{nutrition.saturatedFat}}</td>
+      </tr>
+      <tr>
+        <td>Trans Fat</td>
+        <td>{{nutrition.transFat}}</td>
+      </tr>
+      <tr>
+        <td>Cholesterol</td>
+        <td>{{nutrition.cholesterol}}</td>
+      </tr>
+      <tr>
+        <td>Sodium</td>
+        <td>{{nutrition.sodium}}</td>
+      </tr>
+      <tr>
+        <td>Potassium</td>
+        <td>{{nutrition.potassium}}</td>
+      </tr>
+      <tr>
+        <td>Total Carbohydrates</td>
+        <td>{{nutrition.totalCarbohydrate}}</td>
+      </tr>
+      <tr>
+        <td>Dietary Fiber</td>
+        <td>{{nutrition.dietaryFiber}}</td>
+      </tr>
+      <tr>
+        <td>Sugars</td>
+        <td>{{nutrition.sugars}}</td>
+      </tr>
+      <tr>
+        <td>Protein</td>
+        <td>{{nutrition.protein}}</td>
+      </tr>
+      <tr>
+        <td><button class="btn-danger" name="delete" type="submit" (click)="deleteNutrition(nutrition.id)">X</button></td>
+        <td><button name="updateNutrition" type="submit" (click)="setEditNutrition(nutrition)">Edit Values</button></td>
+      </tr>
+
+    </tbody>
+
+  </table>
+</div>
+

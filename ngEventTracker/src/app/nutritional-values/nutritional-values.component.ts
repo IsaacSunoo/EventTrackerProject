@@ -2,6 +2,7 @@ import { NutritionService } from './../nutrition.service';
 import { Component, OnInit } from '@angular/core';
 import { NutritionValue } from '../models/nutrition-value';
 import { ActivatedRoute, Router } from '@angular/router';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-nutritional-values',
@@ -14,8 +15,9 @@ export class NutritionalValuesComponent implements OnInit {
   editNutrition: NutritionValue = null;
   nutritions: NutritionValue[] = [];
 
-  setEditNutrition = function () {
-    this.editNutrition = Object.assign({}, this.selected);
+  setEditNutrition = function (nutrition: NutritionValue) {
+
+    this.editNutrition = Object.assign({}, nutrition);
   };
 
   displayTable = function () {
@@ -27,12 +29,16 @@ export class NutritionalValuesComponent implements OnInit {
   };
 
   updateNutrition = function (nutrition: NutritionValue) {
-    this.todoService.update(nutrition).subscribe(
+    console.log(nutrition);
+
+    this.nutritionService.update(nutrition).subscribe(
       data => {
-        this.selected = data;
+        this.selected = nutrition;
         this.editNutrition = null;
         this.reload();
-      });
+      },
+      err => { console.error('Observer got an error: ' + err.status); }
+    );
   };
 
   deleteNutrition = function (id: number) {
@@ -48,20 +54,29 @@ export class NutritionalValuesComponent implements OnInit {
     console.log(nutrition);
   };
 
-  addNutrition = function () {
-    this.nutritionService.create(this.newNutrition).subscribe(
+  addNutrition = function (form: NgForm) {
+    const newNutrition = form.value;
+    this.nutritionService.create(newNutrition).subscribe(
       data => {
-        this.newNutrition = new NutritionValue();
         this.reload();
       }
     );
   };
 
   reload = function () {
-    this.NutritionService.index()
+    this.nutritionService.index()
       .subscribe(
         data => { this.nutritions = data; }
       );
+  };
+
+  show = function (id) {
+    this.nutritionService.show(id).subscribe(
+      data => {
+        this.selected = data;
+      },
+      err => console.error('Observer got an error: ' + err)
+    );
   };
 
 

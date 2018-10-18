@@ -18,7 +18,7 @@ import com.skilldistillery.eventtracker.services.NutritionalValueService;
 
 @RestController
 @RequestMapping("api")
-@CrossOrigin({"*", "http://localhost:4200"})
+@CrossOrigin({"*", "http://localhost:4202"})
 public class NutritionalValueController {
 
 	@Autowired
